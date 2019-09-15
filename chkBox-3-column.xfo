@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="Designer_V6.4.0.20180228.1.932123" APIVersion="3.6.18045.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/3.6/">
+   <subform>
+      <pageSet>
+         <pageArea name="snippet">
+            <desc>
+               <text name="name">chkBox-3-column</text>
+            </desc>
+            <subform minH="18mm" layout="lr-tb" name="chkBox-3-column">
+               <field name="CheckBox2" h="5.997mm" w="61.383mm">
+                  <ui>
+                     <checkButton mark="check" size="2.8222mm">
+                        <border>
+                           <edge stroke="lowered"/>
+                           <fill/>
+                        </border>
+                     </checkButton>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin leftInset="0mm" rightInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <integer>0</integer>
+                  </value>
+                  <caption placement="right" reserve="56.4444mm">
+                     <para vAlign="middle" spaceAbove="3pt"/>
+                     <value>
+                        <text>Check Box</text>
+                     </value>
+                     <font typeface="Myriad Pro" size="8pt"/>
+                  </caption>
+                  <items>
+                     <integer>1</integer>
+                     <integer>0</integer>
+                     <integer>2</integer>
+                  </items>
+               </field>
+               <field name="CheckBox3" h="5.997mm" w="61.383mm">
+                  <ui>
+                     <checkButton mark="check" size="2.8222mm">
+                        <border>
+                           <edge stroke="lowered"/>
+                           <fill/>
+                        </border>
+                     </checkButton>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin leftInset="0mm" rightInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <integer>0</integer>
+                  </value>
+                  <caption placement="right" reserve="56.4444mm">
+                     <para vAlign="middle" spaceAbove="3pt"/>
+                     <value>
+                        <text>Check Box</text>
+                     </value>
+                     <font typeface="Myriad Pro" letterSpacing="-0.005em" size="8pt"/>
+                  </caption>
+                  <items>
+                     <integer>1</integer>
+                     <integer>0</integer>
+                     <integer>2</integer>
+                  </items>
+               </field>
+               <field name="CheckBox1" h="5.997mm" w="61.383mm">
+                  <ui>
+                     <checkButton mark="check" size="2.8222mm">
+                        <border>
+                           <edge stroke="lowered"/>
+                           <fill/>
+                        </border>
+                     </checkButton>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin leftInset="0mm" rightInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <integer>0</integer>
+                  </value>
+                  <caption placement="right" reserve="56.4444mm">
+                     <para vAlign="middle" spaceAbove="3pt"/>
+                     <value>
+                        <text>Check Box</text>
+                     </value>
+                     <font typeface="Myriad Pro" letterSpacing="-0.005em" size="8pt"/>
+                  </caption>
+                  <items>
+                     <integer>1</integer>
+                     <integer>0</integer>
+                     <integer>2</integer>
+                  </items>
+               </field>
+               <?templateDesigner expand 0?></subform>
+         </pageArea>
+      </pageSet>
+   </subform>
+</template></xdp:xdp>

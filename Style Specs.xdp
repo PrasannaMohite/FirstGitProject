@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="Designer_V6.4.0.20180228.1.932123" APIVersion="3.6.18045.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2019-09-15T03:06:02Z" uuid="448f32f6-79ab-443f-8b1f-7a96781a1347">
+<template xmlns="http://www.xfa.org/schema/xfa-template/3.6/">
+   <?formServer defaultPDFRenderFormat acrobat11.0dynamic?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform name="form1" layout="tb" locale="en_IN" restoreState="auto">
+      <pageSet>
+         <pageArea name="Page1" id="Page1">
+            <contentArea x="0.25in" y="0.25in" w="576pt" h="756pt"/>
+            <medium stock="default" short="612pt" long="792pt"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 0?></pageSet>
+      <subform w="576pt" layout="tb">
+         <draw name="formHeadline" usehref=".#som($template.#subform.designer__stylesheet.FormHeadline)">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="margin-bottom:0pt;text-decoration:none">Form Headline</p></body>
+               </exData>
+            </value>
+            <keep intact="none"/>
+         </draw>
+         <draw name="Text4" usehref=".#som($template.#subform.designer__stylesheet.BodySubhead)">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text>Body Subhead</text>
+            </value>
+         </draw>
+         <draw name="Text1" minW="19.05mm" minH="5.233mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="margin-left:0pt;text-decoration:none">1. Section Headline</p></body>
+               </exData>
+            </value>
+            <font typeface="Myriad Pro" weight="bold" letterSpacing="-0.005em" kerningMode="pair"/>
+            <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+            <keep intact="none"/>
+            <para spaceBelow="3pt" lineHeight="12pt" marginRight="0pt" marginLeft="0pt"/>
+         </draw>
+         <draw name="Text2" usehref=".#som($template.#subform.designer__stylesheet.BodyText_Regular)">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text>Body Text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Sagittis orci a scelerisque purus semper eget duis. Nulla pharetra diam sit amet nisl suscipit. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Fusce ut placerat orci nulla. Pharetra vel turpis nunc eget lorem dolor. Tristique senectus et netus et malesuada. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Neque egestas congue quisque egestas. Egestas integer eget aliquet nibh praesent tristique. Vulputate mi sit amet mauris. Sodales neque sodales ut etiam sit. Dignissim suspendisse in est ante in. Volutpat commodo sed egestas egestas. Felis donec et odio pellentesque diam. Pharetra vel turpis nunc eget lorem dolor sed viverra. Porta nibh venenatis cras sed felis eget. Aliquam ultrices sagittis orci a. Dignissim diam quis enim lobortis. Aliquet porttitor lacus luctus accumsan. Dignissim convallis aenean et tortor at risus viverra adipiscing at.</text>
+            </value>
+         </draw>
+         <subform minH="18mm" layout="lr-tb" name="chkBox-3-column">
+            <field name="CheckBox2" h="5.997mm" w="61.383mm">
+               <ui>
+                  <checkButton mark="check" size="2.8222mm">
+                     <border>
+                        <edge stroke="lowered"/>
+                        <fill/>
+                     </border>
+                  </checkButton>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin leftInset="0mm" rightInset="0mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer>0</integer>
+               </value>
+               <caption placement="right" reserve="56.4444mm">
+                  <para vAlign="middle" spaceAbove="3pt"/>
+                  <value>
+                     <text>Check Box</text>
+                  </value>
+                  <font typeface="Myriad Pro" size="8pt"/>
+               </caption>
+               <items>
+                  <integer>1</integer>
+                  <integer>0</integer>
+                  <integer>2</integer>
+               </items>
+            </field>
+            <field name="CheckBox3" h="5.997mm" w="61.383mm">
+               <ui>
+                  <checkButton mark="check" size="2.8222mm">
+                     <border>
+                        <edge stroke="lowered"/>
+                        <fill/>
+                     </border>
+                  </checkButton>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin leftInset="0mm" rightInset="0mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer>0</integer>
+               </value>
+               <caption placement="right" reserve="56.4444mm">
+                  <para vAlign="middle" spaceAbove="3pt"/>
+                  <value>
+                     <text>Check Box</text>
+                  </value>
+                  <font typeface="Myriad Pro" letterSpacing="-0.005em" size="8pt"/>
+               </caption>
+               <items>
+                  <integer>1</integer>
+                  <integer>0</integer>
+                  <integer>2</integer>
+               </items>
+            </field>
+            <field name="CheckBox1" h="5.997mm" w="61.383mm">
+               <ui>
+                  <checkButton mark="check" size="2.8222mm">
+                     <border>
+                        <edge stroke="lowered"/>
+                        <fill/>
+                     </border>
+                  </checkButton>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin leftInset="0mm" rightInset="0mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer>0</integer>
+               </value>
+               <caption placement="right" reserve="56.4444mm">
+                  <para vAlign="middle" spaceAbove="3pt"/>
+                  <value>
+                     <text>Check Box</text>
+                  </value>
+                  <font typeface="Myriad Pro" letterSpacing="-0.005em" size="8pt"/>
+               </caption>
+               <items>
+                  <integer>1</integer>
+                  <integer>0</integer>
+                  <integer>2</integer>
+               </items>
+            </field>
+            <?templateDesigner expand 0?></subform>
+         <subform minH="18mm" layout="lr-tb" name="chkBox-2-column">
+            <field name="CheckBox2" w="92.075mm" h="5.997mm">
+               <ui>
+                  <checkButton mark="check" size="2.8222mm">
+                     <border>
+                        <edge stroke="lowered"/>
+                        <fill/>
+                     </border>
+                  </checkButton>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin leftInset="0mm" rightInset="0mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer>0</integer>
+               </value>
+               <caption placement="right" reserve="86.4306mm">
+                  <para vAlign="middle" spaceAbove="3pt"/>
+                  <value>
+                     <text>Check Box</text>
+                  </value>
+                  <font typeface="Myriad Pro" letterSpacing="-0.005em" size="8pt"/>
+               </caption>
+               <items>
+                  <integer>1</integer>
+                  <integer>0</integer>
+                  <integer>2</integer>
+               </items>
+            </field>
+            <field name="CheckBox3" w="92.075mm" h="5.997mm">
+               <ui>
+                  <checkButton mark="check" size="2.8222mm">
+                     <border>
+                        <edge stroke="lowered"/>
+                        <fill/>
+                     </border>
+                  </checkButton>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin leftInset="0mm" rightInset="0mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer>0</integer>
+               </value>
+               <caption placement="right" reserve="86.4306mm">
+                  <para vAlign="middle" spaceAbove="3pt"/>
+                  <value>
+                     <text>Check Box</text>
+                  </value>
+                  <font typeface="Myriad Pro" letterSpacing="-0.005em" size="8pt"/>
+               </caption>
+               <items>
+                  <integer>1</integer>
+                  <integer>0</integer>
+                  <integer>2</integer>
+               </items>
+            </field>
+            <?templateDesigner expand 0?></subform>
+         <subform minH="18mm" layout="lr-tb" name="chkBox-1-column" w="184.15mm">
+            <field name="CheckBox2" minH="5.997mm" w="184.15mm">
+               <ui>
+                  <checkButton mark="check" size="2.8222mm">
+                     <border>
+                        <edge stroke="lowered"/>
+                        <fill/>
+                     </border>
+                  </checkButton>
+               </ui>
+               <font typeface="Myriad Pro"/>
+               <margin leftInset="0mm" rightInset="0mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <integer>0</integer>
+               </value>
+               <caption placement="right" reserve="178.1528mm">
+                  <para vAlign="middle" spaceBelow="0pt" spaceAbove="3pt"/>
+                  <value>
+                     <text>Check Box</text>
+                  </value>
+                  <font typeface="Myriad Pro" letterSpacing="-0.005em" size="8pt"/>
+               </caption>
+               <items>
+                  <integer>1</integer>
+                  <integer>0</integer>
+                  <integer>2</integer>
+               </items>
+            </field>
+            <?templateDesigner expand 0?></subform>
+         <draw name="Text5" usehref=".#som($template.#subform.designer__stylesheet.BulletBodyText)" w="190.853mm" h="1.083333in">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="text-decoration:none">Choose a color. The available colors are those listed in the Swatches panel. Select the Text Color option to make the rule the same color as the first character in the paragraph for Rule Above and the last character for Rule Below.</p><p style="text-decoration:none">Choose a tint or specify a tint value. The tint is based on the color you specified. Note that you can’t create tints of the built-in colors None, Paper, Registration, or Text Color.</p><p style="margin-bottom:0pt;text-decoration:none">If you specified any line type other than solid, choose a gap color or gap tint to change the appearance of the area between dashes, dots, or lines Leading the distance between two baselines of lines of type. The word 'leading' originates from the strips of lead hand-typesetters used to use to space out lines of text evenly<span style="xfa-spacerun:yes"> </span></p><p style="margin-bottom:0pt;text-decoration:none"><br/></p></body>
+               </exData>
+            </value>
+         </draw>
+         <field name="TextField1" minH="9mm" minW="62mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font size="8pt" typeface="Myriad Pro" weight="bold" kerningMode="pair" letterSpacing="-0.005em"/>
+            <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+            <para vAlign="middle" lineHeight="18pt" spaceAbove="4pt" spaceBelow="6pt"/>
+            <caption reserve="25mm">
+               <font size="8pt" typeface="Myriad Pro" baselineShift="0pt" letterSpacing="-0.005em" kerningMode="pair"/>
+               <para vAlign="middle" lineHeight="18pt" spaceAbove="4pt" spaceBelow="6pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+               <value>
+                  <text>Text Field</text>
+               </value>
+            </caption>
+         </field>
+         <subform name="formContainer" w="203.2mm" layout="tb">
+            <margin leftInset="2.8222mm" topInset="2.8222mm" rightInset="2.8222mm" bottomInset="0mm"/>
+            <subform name="form" w="196.85mm" layout="tb">
+               <margin leftInset="3.175mm" rightInset="3.175mm" bottomInset="3.175mm" topInset="3.175mm"/>
+               <draw name="Text6" w="190.853mm" h="9.878mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text>Time for another sweeping pronouncement: Never, ever, under any circumstances should you have more than one consecutive carriage return in your document. Or to put it another way, Never create line spaces by pressing Return (Enter). No exceptionsat least none that I can think of. If text that you import into InDesign has extra carriage returns (very likely), then zap 'em with Find/Change. fahsdjfkfhaskjfhdfsdkjfhjskdfajdgfhjdsgfjhdsgfajdhfhdsgfdjsfuiwetruiqwerjd sdfhsdkjfhdsfk</text>
+                  </value>
+                  <font size="6.5pt" typeface="Myriad Pro" letterSpacing="-0.005em" kerningMode="pair"/>
+                  <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+                  <para lineHeight="7pt"/>
+               </draw>
+               <border>
+                  <edge thickness="0.7056mm">
+                     <color value="153,153,153"/>
+                  </edge>
+                  <corner thickness="0.706mm">
+                     <color value="153,153,153"/>
+                  </corner>
+               </border>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 0?></subform>
+         <subform name="formContainer" w="203.2mm" layout="tb">
+            <margin leftInset="2.8222mm" topInset="2.8222mm" rightInset="2.8222mm" bottomInset="0mm"/>
+            <subform name="form" w="196.85mm" layout="tb">
+               <margin leftInset="3.175mm" rightInset="3.175mm" bottomInset="3.175mm" topInset="3.175mm"/>
+               <draw name="Text6" w="190.5mm" h="7.408mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text>Time for another sweeping pronouncement: Never, ever, under any circumstances should you have more than one consecutive carriage return in your document. Or to put it another way, Never create line spaces by pressing Return (Enter). No exceptionsat least none that I can think of. If text that you import into InDesign has extra carriage returns (very likely), then zap 'em with Find/Change.</text>
+                  </value>
+                  <font size="6.5pt" typeface="Myriad Pro" letterSpacing="-0.005em" kerningMode="pair"/>
+                  <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+                  <para lineHeight="7pt"/>
+               </draw>
+               <draw name="Text5" usehref=".#som($template.#subform.designer__stylesheet.BulletBodyText)" w="190.853mm" h="21.52mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text>Choose a color. The available colors are those listed in the Swatches panel. Select the Text Color option to make the rule the same color as the first character in the paragraph for Rule Above and the last character for Rule Below. Choose a tint or specify a tint value. The tint is based on the color you specified. Note that you can’t create tints of the built-in colors None, Paper, Registration, or Text Color. If you specified any line type other than solid, choose a gap color or gap tint to change the appearance of the area between dashes, dots, or lines Leading the distance between two baselines of lines of type. The word 'leading' originates from the strips of lead hand-typesetters used to use to space out lines of text evenly  </text>
+                  </value>
+                  <para spaceBelow="0pt"/>
+               </draw>
+               <border>
+                  <edge thickness="0.7056mm">
+                     <color value="153,153,153"/>
+                  </edge>
+                  <corner thickness="0.706mm">
+                     <color value="153,153,153"/>
+                  </corner>
+               </border>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 0?></subform>
+         <?templateDesigner expand 0?></subform>
+      <proto/>
+      <desc>
+         <text name="version">6.4.0.20180228.1.932123.929382</text>
+      </desc>
+      <variables>
+         <text name="name">Prasanna</text>
+         <text name="empID">797193</text>
+         <?templateDesigner expand 0?></variables>
+      <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
+      <proto>
+         <subform name="designer__stylesheet">
+            <draw name="FormHeadline" minW="43.278mm" minH="8.467mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="20pt" typeface="Myriad Pro" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para lineHeight="20pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="SectionHeadline" minW="19.05mm" minH="5.233mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font typeface="Myriad Pro" weight="bold" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para spaceBelow="3pt" lineHeight="12pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="BodySubhead" minW="21.354mm" minH="4.233mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="8pt" typeface="Myriad Pro" weight="bold" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para spaceBelow="3pt" lineHeight="10pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="BodyText_bold" w="184.15mm" minH="35.63mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="8pt" typeface="Myriad Pro" weight="bold" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para spaceBelow="6pt" lineHeight="10pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="BodyText_Regular" w="184.15mm" minH="35.63mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="8pt" typeface="Myriad Pro" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para spaceBelow="6pt" lineHeight="10pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="BodyText_Italic" w="184.15mm" minH="35.63mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="8pt" typeface="Myriad Pro" posture="italic" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para spaceBelow="6pt" lineHeight="10pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="BulletBodyText" w="184.15mm" minH="29.987mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="8pt" typeface="Myriad Pro" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para textIndent="-9pt" spaceBelow="4pt" lineHeight="10pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="LegalText" w="184.15mm" minH="5.762mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="6.5pt" typeface="Myriad Pro" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para lineHeight="7pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+         </subform>
+      </proto>
+      <?templateDesigner expand 0?>
+      <?renderCache.subset "Adobe Pi Std" 0 0 UTF-16 2 8 0040004F?>
+      <?renderCache.subset "Courier Std" 0 0 ISO-8859-1 4 8 2 00010050 o?>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 228 59 000100080009000A000D000E000F001000110012001400150016001B0022002300240025002600270029002A002D002F00300031003300340035003700420043004400450046004700480049004A004B004C004D004E004F0050005100520053005400550056005700580059005A005B0068 ’(),-./01345:ABCDEFHILNOPRSTVabcdefghijklmnopqrstuvwxyz'?>
+      <?renderCache.subset "Myriad Pro" 1 0 ISO-8859-1 4 192 48 0001000D000E000F001000110012001400150016002200230025002600270029002A002D002F003100340035003700420043004400450046004700480049004A004C004D004E004F0050005100520053005400550056005700580059005A0068 ,-./01345ABDEFHILNPSTVabcdefghiklmnopqrstuvwxy'?>
+      <?renderCache.subset "Myriad Pro" 0 1 ISO-8859-1 4 148 37 0001000D000F00220023002500260027002A002D002F003100340035003700420043004400450046004700480049004A004D004E004F005000510052005300540055005600570059005A ,.ABDEFILNPSTVabcdefghilmnopqrstuvxy?>
+      <?renderCache.subset "Symbol" 0 0 fontSpecific 4 8 3 00000076 ·?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?templateDesigner DefaultRunAt client?>
+   <?acrobat JavaScript strictScoping?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions scalingPrefs 0?>
+   <?PDFPrintOptions enforceScalingPrefs 0?>
+   <?PDFPrintOptions paperSource 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 20?>
+   <?templateDesigner DefaultCaptionFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+   <?templateDesigner SavePDFWithLog 0?>
+   <?templateDesigner FormTargetVersion 36?>
+   <?templateDesigner Zoom 100?>
+   <?templateDesigner Grid show:1, snap:1, units:19, color:ff8080, origin:(0,0), interval:(9000,9000), objsnap:0, guidesnap:0, pagecentersnap:0?>
+   <?templateDesigner SaveTaggedPDF 0?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 0?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo>
+            <embed>0</embed>
+         </fontInfo>
+         <tagged>0</tagged>
+         <version>1.7</version>
+         <adobeExtensionLevel>11</adobeExtensionLevel>
+      </pdf>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2019-09-15T03:06:02Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Designer 6.4</xmp:CreatorTool>
+         <pdfuaid:part>1</pdfuaid:part>
+         <pdf:Producer>Designer 6.4</pdf:Producer>
+         <xmpMM:DocumentID>uuid:448f32f6-79ab-443f-8b1f-7a96781a1347</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>6.4.0.20180228.1.932123.929382</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale name="en_IN" desc="English (India)">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE D MMMM YYYY</datePattern>
+         <datePattern name="long">D MMMM YYYY</datePattern>
+         <datePattern name="med">DD-MMM-YY</datePattern>
+         <datePattern name="short">DD/MM/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$ z,zz,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">Rs.</currencySymbol>
+         <currencySymbol name="isoname">INR</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet></xdp:xdp>

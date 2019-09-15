@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="Designer_V6.4.0.20180228.1.932123" APIVersion="3.6.18045.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+<template xmlns="http://www.xfa.org/schema/xfa-template/3.6/">
+   <subform name="StyleSheet" locale="en_IN">
+      <pageSet>
+         <pageArea name="Page1" id="Page1">
+            <contentArea x="0.25in" y="0.25in" w="576pt" h="756pt"/>
+            <medium stock="default" short="612pt" long="792pt"/>
+         </pageArea>
+      </pageSet>
+      <subform w="576pt" h="0in"/>
+      <proto>
+         <subform name="designer__stylesheet">
+            <draw name="FormHeadline" minW="43.278mm" minH="8.467mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="20pt" typeface="Myriad Pro" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para lineHeight="20pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="SectionHeadline" minW="19.05mm" minH="5.233mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font typeface="Myriad Pro" weight="bold" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para spaceBelow="3pt" lineHeight="12pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="BodySubhead" minW="21.354mm" minH="4.233mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="8pt" typeface="Myriad Pro" weight="bold" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para spaceBelow="3pt" lineHeight="10pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="BodyText_bold" w="184.15mm" minH="35.63mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="8pt" typeface="Myriad Pro" weight="bold" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para spaceBelow="6pt" lineHeight="10pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="BodyText_Regular" w="184.15mm" minH="35.63mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="8pt" typeface="Myriad Pro" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para spaceBelow="6pt" lineHeight="10pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="BodyText_Italic" w="184.15mm" minH="35.63mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="8pt" typeface="Myriad Pro" posture="italic" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para spaceBelow="6pt" lineHeight="10pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="BulletBodyText" w="184.15mm" minH="29.987mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="8pt" typeface="Myriad Pro" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para textIndent="-9pt" spaceBelow="4pt" lineHeight="10pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+            <draw name="LegalText" w="184.15mm" minH="5.762mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <font size="6.5pt" typeface="Myriad Pro" letterSpacing="-0.005em" kerningMode="pair"/>
+               <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+               <para lineHeight="7pt"/>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+            </draw>
+         </subform>
+      </proto>
+   </subform>
+   <?templateDesigner DefaultCaptionFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?></template></xdp:xdp>
